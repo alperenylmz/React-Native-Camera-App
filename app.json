@@ -1,11 +1,20 @@
 {
   "expo": {
     "name": "camApp",
-    "slug": "camApp",
+    "slug": "camera-app",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7d68572c-26c4-4c14-b1e9-93309a87ba64"
+      }
+    },
+    "owner": "alperenylmaz"
   },
   "name": "camApp"
 }
